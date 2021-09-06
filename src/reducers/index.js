@@ -44,7 +44,7 @@ const events = (state = [], action) => {
     case 'CREATE_EVENT':
       const event = { title: action.title, body: action.body }
       const length = state.length
-      let id 
+      
       // if (length === 0){
         // id = 1
       // }else{
